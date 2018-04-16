@@ -1,0 +1,23 @@
+/* @import "../common.wxss"; */
+@import "/pages/common.wxss";
+
+page {background-color: #fff;}
+/*swiper  */
+.indexSwiper {width: 100%; height:340rpx;}
+.slide-image {width: 100%;height: 100%;}
+
+/* city  */
+.section {width: 100%;}
+.picker {height: 60rpx;padding-top: 20rpx;margin-left: 20rpx;}
+/*search  */
+
+/*   main  */
+.main {width: 100%;margin-top: 10rpx;font:22px "微软雅黑";overflow: hidden;}
+.main-block {width: 100%;height: 245rpx;background-color: #eee;border-bottom: 1px solid #ccc;padding: 5rpx 0;padding-left: 10rpx;}
+.commodity-logo {width: 240rpx;height: 240rpx;float: left;margin-left: 5rpx;}
+.commodity-info {float: left;margin-left: 15rpx;}
+.commodity-title {color: black;}
+.commodity-price {display: block; font-weight: 900;}
+.title-logo {width: 220rpx;height: 70rpx;display: inline-block;}
+.logo-two {height: 65rpx;margin-left: 20rpx;}
+.logo-two image {width: 100%;height: 100%;}

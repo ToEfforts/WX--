@@ -1,0 +1,28 @@
+/* commont  */
+page {width: 100%;overflow: hidden;}
+button {margin: 0;padding: 0;border: none;}
+text {margin: 0;padding: 0;}
+/* 去默认边框 */
+button::after{border: none;}
+.red {color: red;}
+/*  font-size  */
+.f12 {font-size: 12px;}
+.f14 {font-size: 14px;}
+.f16 {font-size: 16px;}
+.f18 {font-size: 18px;}
+.f20 {font-size: 20px;}
+.f22 {font-size: 22px;}
+/* margin  */
+.mt5 {margin-top: 5rpx;}
+.mt10 {margin-top: 10rpx;}
+.mt15 {margin-top: 15rpx;}
+.mt20 {margin-top: 20rpx;}
+.mt30 {margin-top: 30rpx;}
+.mt40 {margin-top: 40rpx;}
+.ml5 {margin-left: 5rpx; }
+.ml10 {margin-left: 10rpx; }
+.ml15 {margin-left: 15rpx; }
+.ml20 {margin-left: 20rpx; }
+.ml30 {margin-left: 30rpx; }
+/*icon  */
+.icon {width: 45rpx;height: 45rpx;vertical-align: middle;margin-top: -10rpx;margin-right: 15rpx;}

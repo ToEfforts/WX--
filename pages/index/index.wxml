@@ -1,0 +1,46 @@
+<!--   swiper  -->
+<swiper class='indexSwiper' indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" />
+    </swiper-item>
+    <!--再加一个 swiper-item 相当于加image 一倍  -->
+  </block>
+</swiper>
+
+<!--省市区选择器  -->
+<view class="section">
+  <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+    <view class="picker">
+      <image src='../img/icon00.png' class='icon'></image>
+      <text class='city-gps'>当前选择：{{region[0]}}，{{region[1]}}，{{region[2]}}</text>
+    </view>
+  </picker>
+</view>
+<!-- gps  search  -->
+<!-- <view class='search'>
+    <picker-view value="{{value}}" indicator-style='height:100rpx;' style="width:50%;height:600rpx;" bindtap='bindChar'>
+      <picker-view-column>
+        <view wx:for="{{cityList}}" style='line-height:100rpx'>{{item}}市</view>
+      </picker-view-column>
+
+    </picker-view>
+</view> -->
+
+<!-- main  -->
+<view class='main'>
+  <view class='main-block' wx:for="{{mainList}}">
+    <image class='commodity-logo' src='{{item.logo}}'></image>
+    <view class='commodity-info'>
+      <view class='commodity-title f22'>{{item.title}}</view>
+      <text class='commodity-price f16 mt15 ml10'> <text class='red f18'>￥</text> {{item.price}}</text>
+      <view class='commodity-image-btn'>
+        <image class='title-logo' src='{{item.logoone}}' data-index="{{index}}" bindtap='toDetail'></image>
+        <button open-type="contact" class='title-logo logo-two ml10'>
+          <image src='{{item.logotwo}}' />
+        </button>
+
+      </view>
+    </view>
+  </view>
+</view>

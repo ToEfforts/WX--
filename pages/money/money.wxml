@@ -1,0 +1,4 @@
+<!--pages/money/money.wxml-->
+<view>pages/money/money.wxml-</view>
+<view> {{optTitle}} </view>
+<view> {{optprice}}</view>

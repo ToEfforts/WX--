@@ -1,0 +1,9 @@
+<image src="../img/images/swip03.jpg" class="petal-picture"></image>
+<view class='introduce'>
+  <view class='introduce-desc' wx:for="{{introduceList}}">
+    <view class='introduce-title f20  mt20 '>{{item.title}}</view>
+    <text class='introduce-content f14' bindtap='copy'>
+        {{item.content}} {{item.p}}
+      </text>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+@import "../common.wxss";
+page {background-color: #fff;}
+.petal-picture {margin: 0 auto;display: block;height: 300rpx;width: 600rpx; margin-top: 40rpx;border-radius: 5%;box-shadow:8rpx 8rpx 100rpx #00f;
+}
+.introduce {margin-top: 100rpx;}
+.introduce-desc {padding: 0 30rpx;}
+.introduce-title {color: palevioletred;font-weight: 700;padding: 10rpx 20rpx;line-height: 22px;position: relative;padding-left: 45rpx;}
+.introduce-title::before {position: absolute;top: 20rpx;left: 10rpx;content: "";width: 10rpx;height: 30rpx;background-color: aqua;}
+.introduce-content {display: block; padding-left: 2em;color:darkorchid;line-height: 1.4;letter-spacing: 2rpx;}
